@@ -23,7 +23,7 @@ def main():
 
 # ユーザーインターフェイスの構築
 st.title("ランダムわんこ")
-st.image("トップ画像.jpg")
+st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     st.image(str(image_url))
