@@ -3,7 +3,7 @@
 import streamlit as st
 import requests
 
-top_image = st.secrets.Top_Image.top_image
+top = st.secrets.Top_Image.top_image
 
 
 def download_image(url, file_path):
@@ -26,7 +26,7 @@ def main():
 
 # ユーザーインターフェイスの構築
 st.title("ランダムわんこ")
-st.image(top_image)
+st.image(top)
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     st.image(image_url)
