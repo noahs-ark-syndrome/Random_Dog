@@ -25,4 +25,4 @@ st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     main()
-    st.image(image_url)
+    st.image(str(image_url))
