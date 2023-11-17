@@ -24,6 +24,5 @@ st.title("ランダムわんこ")
 st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
-    if __name__ == "__main__":
-        main()
+    main()
     st.image(image_url)
