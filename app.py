@@ -15,4 +15,4 @@ st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     main()
-    st.image("https://images.dog.ceo/breeds/wolfhound-irish/n02090721_4006.jpg")
+    st.image(data["message"])
