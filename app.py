@@ -26,7 +26,7 @@ def main():
 
 # ユーザーインターフェイスの構築
 st.title("ランダムわんこ")
-st.image("top_image")
+st.image(top_image)
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     st.image(image_url)
