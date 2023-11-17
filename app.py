@@ -3,6 +3,9 @@
 import streamlit as st
 import requests
 
+top_image = st.secrets.Top_Image.top_image
+
+
 def download_image(url, file_path):
     """
     url: ダウンロードの元になるURL
@@ -23,7 +26,7 @@ def main():
 
 # ユーザーインターフェイスの構築
 st.title("ランダムわんこ")
-st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
+st.image("top_image")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     st.image(image_url)
