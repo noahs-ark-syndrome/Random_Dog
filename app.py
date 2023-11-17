@@ -12,6 +12,6 @@ st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     request_dog()
-    data = r.json()
+    data = requests.get(api_url).json()
     image_url = data["message"]
     st.image(image_url)
