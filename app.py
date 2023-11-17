@@ -26,4 +26,4 @@ st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
     if __name__ == "__main__":
         main()
-        st.image(image_url)
+    st.image(image_url)
