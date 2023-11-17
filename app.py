@@ -26,7 +26,7 @@ st.title("ランダムわんこ")
 st.image("トップ画像.jpg")
 st.write("いろんなわんこをお見せしましょう")
 if st.button("わん！"):
-    st.image(image_url)
+    st.image(str(image_url))
 
 if __name__ == "__main__":
     main()
