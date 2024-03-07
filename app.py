@@ -11,7 +11,7 @@ def request_dog():
 
 # ユーザーインターフェイスの構築
 st.title("ランダムわんこ")
-st.image("https://th.bing.com/th/id/OIG.Byw03p.SxchBtY6HtdH1?pid=ImgGn")
+st.image("トップ画像.jpg")
 st.write("いろんなわんこをお見せしましょう！")
 st.write("🐩わんこを呼んでみてください🐕")
 if st.button("わん！"):
